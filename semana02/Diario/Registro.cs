@@ -1,10 +1,17 @@
-class Registro
-{
-    private string _data;
-    private string _textoPergunta;
-    private string _textoResposta;
+using System;
 
+public class Registro
+{
+    public string _data;
+    public string _textoPergunta;
+    public string _textoResposta;
+    
+    
+    
     public void Exibir()
     {
+        Console.WriteLine($"{_data} - {_textoPergunta}");
+        Console.WriteLine(_textoResposta);
+        Console.WriteLine();
     }
 }
