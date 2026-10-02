@@ -50,7 +50,6 @@ class Program
     }
 }
 
-// Classe Base (Abstração e Encapsulamento)
 public class Activity
 {
     private string _name;
@@ -68,7 +67,7 @@ public class Activity
         Console.Clear();
         Console.WriteLine($"Bem-vindo à {_name}.\n");
         Console.WriteLine($"{_description}\n");
-        Console.Write("Quanto tempo, em segundos você deseja para esta atividade? ");
+        Console.Write("Quantos segundos você deseja para esta atividade? ");
         _duration = int.Parse(Console.ReadLine());
 
         Console.Clear();
